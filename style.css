@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Langar, cursive;
+}
+
+header#header {
+    width: 100%;
+    height: 100%;
+}
+
+#headerItmsWraper {
+    background-color: rgb(165, 142, 142);
+    width: 100%;
+    height: 100%;
+}
+
+.headerItms {
+    width: 33.33%;
+    float: left;
+    background-color: white;
+}
+
+.menuBar.headerItms ul {
+    list-style-type: none;
+}
+
+.menuBar.headerItms ul li {
+    float: left;
+    padding: 22px;
+}
+
+.menuBar.headerItms ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo.headerItms h1 {
+    text-align: center;
+    padding: 4px 0px;
+}
+
+.menuBar.headerItms i.fas.fa-search {
+    float: right;
+    margin-top: 8px;
+    margin-right: 37px;
+    font-size: 20px;
+}
+
+section.home {
+    width: 100%;
+    animation: 8s ease-in-out 0s infinite normal none running backgroundSlider;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 220px 0px;
+    text-align: center;
+}
+
+@keyframes backgroundSlider {
+    0%,
+    100% {
+        background-image: url("images/hero-1.jpg");
+    }
+    25% {
+        background-image: url("images/hero-2.jpg");
+    }
+    50% {
+        background-image: url("images/hero-3.jpg");
+    }
+    75% {
+        background-image: url("images/hero-4.jpg");
+    }
+}
+
+.homeP {
+    display: inline;
+    font-weight: 600;
+    color: #f60a0a;
+    padding-left: 4px;
+    font-size: 24px;
+    transition: color .4s;
+    cursor: pointer;
+}
+
+.homeP:hover {
+    color: white;
+}
+
+h1.slogan {
+    padding: 28px 0px 60px;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+}
+
+.homewraper button {
+    background: red;
+    border: none;
+    padding: 5px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-right: 36px;
+    transition: background-color .4s;
+}
+
+.homewraper button:hover {
+    background-color: #080808;
+}
+
+i.fas.fa-clipboard {
+    font-size: 24px;
+    color: #080808;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+i.fas.fa-clipboard:hover {
+    color: #f60606;
+}
+
+section.about {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.aboutUsWraper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.aboutPic {
+    width: 50%;
+    float: left;
+}
+
+.aboutPic img {
+    box-shadow: rgb(187, 181, 181) 9px 7px 14px;
+}
+
+.aboutTxt {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+}
+
+.description {
+    width: 100%;
+}
+
+p.descripP {
+    font-weight: 200;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.clms h1 {
+    font-size: 24px;
+}
+
+.clssection {
+    width: 29.33%;
+    float: left;
+    margin-right: 18px;
+    color: rgb(255, 0, 0);
+}
+
+.clssection img {
+    width: 100%;
+    box-shadow: 2px 5px 6px #d8b4b4;
+}
+
+.clssection p {
+    padding-top: 14px;
+}
+
+section.reservation {
+    background: url("images/reservation-bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservInfoBox {
+    width: 27%;
+    position: relative;
+    left: 85px;
+    top: 124px;
+    background: white;
+    padding: 28px 38px;
+    box-shadow: 4px 9px 11px #988f8f;
+}
+
+.reservInfoBox input {
+    width: 100%;
+    margin-bottom: 22px;
+    border-radius: 6px;
+    border-color: #ada2a2;
+    padding: 4px 9px;
+    border-width: 1px;
+}
+
+.reservInfoBox select {
+    width: 100%;
+    margin-bottom: 22px;
+    border-radius: 6px;
+    padding: 4px;
+    color: #676757;
+}
+
+.reservInfoBox textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.reservInfoBox button {
+    background: red;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 56px;
+    margin-top: 13px;
+}
+
+.reservInfoBox h1 {
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 0px;
+}
+
+.reservInfoBox p {
+    text-align: center;
+    color: red;
+    margin-bottom: 0px;
+}
+
+.footerClmsWraper {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer.footer {
+    padding-top: 238px;
+}
+
+.describe {
+    width: 22%;
+    float: left;
+    margin-right: 144px;
+}
+
+.scedeule {
+    width: 34%;
+    float: left;
+}
+
+.feedback {
+    width: 29%;
+    float: left;
+}
+
+i.fab.fa-facebook-f {
+    padding: 0px 30px;
+}
+
+i.fab.fa-twitter {
+    padding: 0px 26px 0px 0px;
+}
+
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 4px 10px;
+    border: 0.4px solid;
+    border-radius: 11px;
+}
+
+.feedback p {
+    padding: 8px 0px;
+}
+
+.feedback button {
+    padding: 9px 129px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 32px;
+}
+
+.copyRights p {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 8px;
+    color: red;
+}
+
+.fadeInLeft {
+    animation: fadeInLeft 4s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-50%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
